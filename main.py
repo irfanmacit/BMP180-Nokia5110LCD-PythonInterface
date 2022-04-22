@@ -40,9 +40,7 @@ ui.statusbar.showMessage(" " * 1 + " Veritabanı Bağlantısı Yapıldı ...!", 
 
 
 def START_MEASURE():
-    #    port = str(ui.port.currentText())
     port = "COM8"
-#    baud = str(ui.baudrate.currentText())
     baud = 115200
 
     global seri
